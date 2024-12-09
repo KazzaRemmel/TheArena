@@ -1,0 +1,162 @@
+[gd_resource type="Theme" load_steps=21 format=3 uid="uid://b5v5123v6lyim"]
+
+[ext_resource type="Texture2D" uid="uid://2iqsntj4i83g" path="res://assets/ui/ui.png" id="1_8xn6e"]
+[ext_resource type="FontFile" uid="uid://b6lkxh5rjbe5a" path="res://resources/theme/Rockboxcond12.ttf" id="1_m4ao2"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_wli8w"]
+texture = ExtResource("1_8xn6e")
+texture_margin_left = 1.0
+texture_margin_top = 1.0
+texture_margin_right = 1.0
+texture_margin_bottom = 1.0
+region_rect = Rect2(18, 2, 12, 12)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_26q4f"]
+texture = ExtResource("1_8xn6e")
+texture_margin_left = 3.0
+texture_margin_top = 3.0
+texture_margin_right = 3.0
+texture_margin_bottom = 3.0
+region_rect = Rect2(17, 1, 14, 14)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_8efu2"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_07k2g"]
+texture = ExtResource("1_8xn6e")
+texture_margin_left = 3.0
+texture_margin_top = 3.0
+texture_margin_right = 3.0
+texture_margin_bottom = 3.0
+region_rect = Rect2(20, 21, 8, 7)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_oto6p"]
+texture = ExtResource("1_8xn6e")
+texture_margin_left = 3.0
+texture_margin_top = 3.0
+texture_margin_right = 3.0
+texture_margin_bottom = 3.0
+region_rect = Rect2(4, 20, 8, 8)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_umkvs"]
+texture = ExtResource("1_8xn6e")
+texture_margin_left = 3.0
+texture_margin_top = 3.0
+texture_margin_right = 3.0
+texture_margin_bottom = 3.0
+region_rect = Rect2(4, 20, 8, 8)
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_qijo8"]
+size = Vector2(0, 0)
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_ph7vf"]
+size = Vector2(0, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_862mb"]
+bg_color = Color(0.458824, 0.890196, 1, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.8, 0.8, 0.8, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7yhat"]
+bg_color = Color(0.458824, 0.890196, 1, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.8, 0.8, 0.8, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_18bnd"]
+content_margin_left = 2.0
+content_margin_top = 6.0
+content_margin_right = 2.0
+content_margin_bottom = 6.0
+bg_color = Color(0.247059, 0.14902, 0.192157, 1)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_o64qg"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_rjtrr"]
+content_margin_left = 4.0
+content_margin_top = 10.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+texture = ExtResource("1_8xn6e")
+texture_margin_left = 4.0
+texture_margin_top = 13.0
+texture_margin_right = 4.0
+texture_margin_bottom = 10.0
+region_rect = Rect2(0, 0, 16, 16)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_he6ew"]
+bg_color = Color(0.247059, 0.14902, 0.192157, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jj8hn"]
+bg_color = Color(0.996078, 0.682353, 0.203922, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.8, 0.8, 0.8, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ahuiu"]
+bg_color = Color(0.996078, 0.682353, 0.203922, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.8, 0.8, 0.8, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_sdtey"]
+bg_color = Color(0.996078, 0.682353, 0.203922, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.8, 0.8, 0.8, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tqici"]
+content_margin_left = 4.0
+content_margin_top = 0.0
+content_margin_right = 4.0
+content_margin_bottom = 0.0
+bg_color = Color(0.247059, 0.14902, 0.192157, 1)
+
+[resource]
+default_font = ExtResource("1_m4ao2")
+default_font_size = 16
+AltPanelContainer/base_type = &"PanelContainer"
+AltPanelContainer/styles/panel = SubResource("StyleBoxTexture_wli8w")
+BlueOutlineLabel/base_type = &"Label"
+BlueOutlineLabel/colors/font_outline_color = Color(0.14902, 0.168627, 0.266667, 1)
+BlueOutlineLabel/colors/font_shadow_color = Color(0.14902, 0.168627, 0.266667, 1)
+BlueOutlineLabel/constants/outline_size = 8
+BlueOutlineLabel/constants/shadow_offset_x = 0
+BlueOutlineLabel/constants/shadow_offset_y = 0
+Button/colors/font_color = Color(0.247059, 0.14902, 0.192157, 1)
+Button/colors/font_disabled_color = Color(0.545098, 0.607843, 0.705882, 1)
+Button/colors/font_focus_color = Color(0.247059, 0.14902, 0.192157, 1)
+Button/colors/font_hover_color = Color(0.741176, 0.423529, 0.290196, 1)
+Button/colors/font_pressed_color = Color(0.247059, 0.14902, 0.192157, 1)
+Button/styles/disabled = SubResource("StyleBoxTexture_26q4f")
+Button/styles/focus = SubResource("StyleBoxEmpty_8efu2")
+Button/styles/hover = SubResource("StyleBoxTexture_07k2g")
+Button/styles/normal = SubResource("StyleBoxTexture_oto6p")
+Button/styles/pressed = SubResource("StyleBoxTexture_umkvs")
+HSlider/icons/grabber = SubResource("PlaceholderTexture2D_qijo8")
+HSlider/icons/grabber_highlight = SubResource("PlaceholderTexture2D_ph7vf")
+HSlider/styles/grabber_area = SubResource("StyleBoxFlat_862mb")
+HSlider/styles/grabber_area_highlight = SubResource("StyleBoxFlat_7yhat")
+HSlider/styles/slider = SubResource("StyleBoxFlat_18bnd")
+Label/constants/line_spacing = 0
+Label/styles/normal = SubResource("StyleBoxEmpty_o64qg")
+PanelContainer/styles/panel = SubResource("StyleBoxTexture_rjtrr")
+ProgressBar/styles/background = SubResource("StyleBoxFlat_he6ew")
+VScrollBar/styles/grabber = SubResource("StyleBoxFlat_jj8hn")
+VScrollBar/styles/grabber_highlight = SubResource("StyleBoxFlat_ahuiu")
+VScrollBar/styles/grabber_pressed = SubResource("StyleBoxFlat_sdtey")
+VScrollBar/styles/scroll = SubResource("StyleBoxFlat_tqici")
